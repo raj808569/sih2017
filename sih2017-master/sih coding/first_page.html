@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Functioning of School Management Committees</title>
+    <link rel="icon" type="image/png" href="public/images/emblemofindia.png" />
+
+    <!-- Bootstrap -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <style>
+      body{
+        background-image: url("public/images/main_page_background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+      }
+      *{
+        padding: 0px;
+        margin: 0px;
+      }
+
+      #head_bar{
+        margin-top: 2px;
+      }
+      #datetimepicker12{
+        background-color: white;
+      }
+    </style>
+  </head>
+<body>
+  <div class="container-fluid">
+    <!--Header Section-->
+    <div class="row" id="head_bar" >
+      <div class="col-md-3 col-xs-3">
+        <a href="first_page.html"><strong><img class="img-responsive" src="public/images/emblemofindia.png" style="max-width:35%;height:auto;"></strong></a>
+      </div>
+      <div class="col-md-5 col-xs-5">
+        <img class="img-responsive" src="public/images/siksha3.png" style="margin-top:15px;">
+      </div>
+      <div class="col-md-4 col-xs-4" >
+      <a href="signup_page.html"><button class="btn btn-info" id="signup_button" style="margin-left:180px;margin-top:20px;">Signup</button></a>
+        <a href="login_page.html"><button class="btn btn-warning" id="login_button" style="margin-left:5px;margin-top:20px;">Login</button></a>
+      </div>
+    </div>
+
+    <!-- Carousel
+        ================================================== -->
+        <div class="container marketing">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <center><img class="first-slide" src="public/images/study1.jpg" alt="First slide" /></center>
+
+                </div>
+                <div class="item">
+                  <center><img class="first-slide" src="public/images/study2.jpg" alt="First slide" /></center>
+
+                </div>
+                <div class="item">
+                   <center> <img class="first-slide" src="public/images/study3.jpg" alt="First slide" /></center>
+                                    </div>
+                <div class="item">
+					<center><img class="first-slide" src="public/images/study4.jpg" alt="First slide" /></center>
+
+                </div>
+                <div class="item">
+                  <center>  <img class="first-slide" src="public/images/study5.jpg" alt="First slide" />
+
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">
+                    Previous</span> </a><a class="right carousel-control" href="#myCarousel" role="button"
+                        data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+                        </span><span class="sr-only">Next</span> </a>
+        </div>
+        </div>
+        <!-- /.carousel -->
+        <!--Announcements-->
+          <div class="row" style="margin-bottom:5px;" >
+            <div class="col-md-12">
+              <center>
+                <h2><strong style="color:black;">Announcements</strong></h2>
+              </center>
+            </div>
+          </div>
+        <!--After_Announcements-->
+        <div class="row" id="After_Announcements">
+          <div class="col-md-3 col-xs-3" >
+            <div class="panel panel-primary" >
+                  <div class="panel-heading">
+                      Calendar</div></div>
+                    <center><div id="datetimepicker12"></div></center>
+
+          </div>
+          <div class="col-md-6 col-xs-6">
+            <div class="panel panel-primary" >
+                  <div class="panel-heading" style="background-color:purple;">
+                      Recent Updates</div>
+              <div class="panel-body">
+              <h2>
+                  News Feed</h2>
+              <div>
+<table class="table table-responsive" cellspacing="0" id="GridView2" style="width:100%;border-collapse:collapse;">
+  <tr>
+    <td style="width:50%;">
+                            <div class="alert alert-info">
+                            <strong>Title: </strong>
+                            <span id="GridView2_Label7_0">7000 Maharashtra schools served closure notice due to non-compliance of RTE norms</span>
+                            </div>
+                            Ref. No.:
+                            <span id="GridView2_Label2_0" style="font-weight: 700">1000005/253/678</span>
+                            &nbsp;Date Pub:
+                            <span id="GridView2_Label3_0" style="font-weight: 700">1-Apr-2017</span>
+                            &nbsp;Date Exp:
+                            <span id="GridView2_Label4_0" style="font-weight: 700">2-Apr-2017</span>
+                            &nbsp;Uploaded By:
+                            <span id="GridView2_Label5_0" style="font-weight: 700">RTE</span>
+                            <span id="GridView2_Label1_0"><p>
+<span style="box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-weight: 700; color: rgb(51, 51, 51); font-size: 14px;">7000 Maharashtra schools served closure notice due to non-compliance of RTE norms</span><br style="box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; color: rgb(51, 51, 51); font-size: 14px;" />
+<a href="http://www.dnaindia.com/academy/report-7000-maharashtra-schools-served-closure-notice-due-to-non-compliance-of-rte-norms-2293511"><button class="btn btn-warning btn-xs">Learn More..</button></a>
+                            <input type="hidden" name="GridView2$ctl02$HiddenField1" id="GridView2_HiddenField1_0" />
+                            Attatchments:<i class="glyphicon glyphicon-paperclip"></i><div>
+      <table class="table table responsive" cellspacing="0" id="GridView2_grdAtt_0" style="border-collapse:collapse;">
+        <tr>
+          <td colspan="2">No files uploaded</td>
+        </tr>
+      </table>
+    </div>
+                        </td>
+  </tr>
+</table>
+</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-3">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">About RTE</h3>
+              </div>
+              <div class="panel-body bg-warning">
+                <p class="text-success">
+                  The Right of Children to Free and Compulsory Education Act or Right to Education Act (RTE), is an Act of the Parliament of India enacted on 4 August 2009, which describes the modalities of the importance of free and compulsory education for children between 6 and 14 in India under Article 21a of the Indian Constitution. India became one of 135 countries to make education a fundamental right of every child when the Act came into force on 1 April 2010.
+
+                </p>
+                <a href="http://righttoeducation.in/know-your-rte/about"><button class="btn btn-info">Read More...</button></a>
+              </div>
+              </div>
+          </div>
+        </div>
+
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="public/scripts/jquery.min.js"></script>
+  <script src="public/js/moment.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="public/js/bootstrap.js"></script>
+  <script src="public/scripts/bootstrap.min.js"></script>
+  <script src="public/js/bootstrap-datetimepicker.min.js"></script>
+  <script type="text/javascript">
+      $(function () {
+          $('#datetimepicker12').datetimepicker({
+              inline: true,
+              sideBySide: true
+          });
+      });
+  </script>
+</body>
+</html>
