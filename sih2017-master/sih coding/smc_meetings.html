@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Functioning of School Management Committees</title>
+    <link rel="icon" type="image/png" href="public/images/emblemofindia.png" />
+
+    <!-- Bootstrap -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <style>
+	table, th, td 
+	{
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	td 	
+	{
+		padding: 10px;
+		font-size:18px;
+		font-color:black;
+	}
+	th
+	{
+		padding:10px;
+		text-align:center;
+		font-size: 20px;
+		font-color:white;
+		background-color:black;
+	}
+
+      body{
+        background-image: url("public/images/main_page_background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+      }
+      *{
+        padding: 0px;
+        margin: 0px;
+      }
+
+      #head_bar{
+        margin-top: 2px;
+      }
+      #datetimepicker12{
+        background-color: white;
+      }
+    </style>
+  </head>
+<body>
+  <div class="container-fluid">
+    <!--Header Section-->
+    <div class="row" id="head_bar" >
+      <div class="col-md-3 col-xs-3">
+        <a href="first_page.html"><strong><img class="img-responsive" src="public/images/emblemofindia.png" style="max-width:35%;height:auto;"></strong></a>
+      </div>
+      <div class="col-md-6 col-xs-6">
+        <img class="img-responsive" src="public/images/siksha3.png" style="margin-top:15px;">
+    </div>
+  </div>
+  <!--school image-->
+  <div class="row" style="margin-top:15px;">
+    <div class="col-md-12">
+    <center><img class="img-responsive" src="public/images/school.jpg"></center>
+    </div>
+  </div>
+</div>
+  <!--page navigation headers-->
+  <ul class="nav nav-tabs nav-justified" style="background-color:skyblue;margin-top:20px;">
+  <li role="presentation"><a href="smc_home_page.html"><h4>School</h4></a></li>
+  <li role="presentation" class="active"><a href="smc_meetings.html"><h4>Meetings</h4></a></li>
+  <li role="presentation"><a href="#"><h4>Completed Tasks</h4></a></li>
+  <li role="presentation"><a href="#"><h4>Funds</h4></a></li>
+</ul>
+<div style="margin-top:20px;margin-left:25px;margin-bottom:25ps;margin-right:25px;">
+	<table style="width:100%" id="meeting">
+		<tr>
+			<th><u>S.No.</u></th>
+			<th><u>DATE</u></th>
+			<th><u>SCHOOL DEVELOPMENT PLAN</u></th>
+			<th><u>DISCUSSION</u></th>
+		<tr>
+			<td>1.</td>
+			<td>31-03-2017</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>2.</td>
+			<td>01-04-2017</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>3.</td>
+			<td>03-04-2017</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>4.</td>
+			<td>04-04-2017</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	</div>
+</div>
+<div class="container-fluid">
+	<a href="#" class="btn btn-danger" role="button" style="float:right;margin-top:10px;margin-right:10px;">Update</a>
+</div>
+</body>
+</html>
