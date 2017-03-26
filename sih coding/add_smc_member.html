@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Functioning of School Management Committees</title>
+    <link rel="icon" type="image/png" href="public/images/emblemofindia.png" />
+
+    <!-- Bootstrap -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <style>
+      body{
+        background-image: url("public/images/main_page_background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+      }
+      *{
+        padding: 0px;
+        margin: 0px;
+      }
+
+      #head_bar{
+        margin-top: 2px;
+      }
+      #datetimepicker12{
+        background-color: white;
+      }
+      a {
+       text-decoration: none ;
+    }
+  a:hover
+    {
+
+      text-decoration:none;
+      cursor:pointer;
+     }
+    </style>
+  </head>
+<body>
+  <div class="container-fluid">
+    <!--Header Section-->
+    <div class="row" id="head_bar" >
+      <div class="col-md-3 col-xs-3">
+        <a href="first_page.html"><strong><img class="img-responsive" src="public/images/emblemofindia.png" style="max-width:35%;height:auto;"></strong></a>
+      </div>
+      <div class="col-md-6 col-xs-6">
+        <img class="img-responsive" src="public/images/siksha3.png" style="margin-top:15px;">
+    </div>
+  </div>
+    <!--Form section-->
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6" style="padding-top:80px;">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="add_state_member" class="col-sm-4 control-label"><span style="font-size:20px;">STATE:</label>
+              <div class="col-sm-8">
+                <select class="form-control">
+                  <option>Arunachal Pradesh</option>
+                  <option>Assam</option>
+                  <option>Bihar</option>
+                  <option>Tamil Nadu</option>
+                  <option>Uttarakhand</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="add_district_member" class="col-sm-4 control-label"><span style="font-size:20px;">DISTRICT:</label>
+              <div class="col-sm-8">
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4 </option>
+                  <option>5</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="add_school_member" class="col-sm-4 control-label"><span style="font-size:20px;">SCHOOL:</label>
+              <div class="col-sm-8">
+                <select class="form-control">
+                  <option>School 1</option>
+                  <option>School 2</option>
+                  <option>School 3</option>
+                  <option>School 4 </option>
+                  <option>School 5</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="member_name" class="col-sm-4 control-label"><span style="font-size:20px;">Member</span></label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="member_name" placeholder="Member">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="member_position" class="col-sm-4 control-label"><span style="font-size:20px;">Position</span></label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="member_position" placeholder="Position">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="mobile_no" class="col-sm-4 control-label"><span style="font-size:20px;">Mobile No.</span></label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="mobile_no" placeholder="Mobile No.">
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <div class="col-sm-offset-4 col-sm-8">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!--links section-->
+
+
+      </div>
+  </div>
+</body>
+</html>
